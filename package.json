@@ -3,7 +3,7 @@
     "version": "1.0.1",
     "description": "RowGroup for DataTables with styling for [Semantic UI](http://semantic-ui.com/)",
     "files": [
-        "css/rowGroup.semanticui.css"
+        "css/**/*.css"
     ],
     "keywords": [
         "row grouping",
