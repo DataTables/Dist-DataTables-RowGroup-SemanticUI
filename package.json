@@ -1,6 +1,6 @@
 {
     "name": "datatables.net-rowgroup-se",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "RowGroup for DataTables with styling for [Semantic UI](http://semantic-ui.com/)",
     "files": [
         "css/**/*.css"
@@ -22,7 +22,7 @@
     "dependencies": {
         "jquery": ">=1.7",
         "datatables.net-se": "^1.10.15",
-        "datatables.net-rowgroup": "1.0.1"
+        "datatables.net-rowgroup": "1.0.2"
     },
     "style": "css/rowGroup.semanticui.css"
 }
