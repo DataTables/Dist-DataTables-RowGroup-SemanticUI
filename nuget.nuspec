@@ -1,25 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
-    <metadata>
-        <id>datatables.net-rowgroup-se</id>
-        <version>1.1.2</version>
-        <description>RowGroup for DataTables</description>
-        <authors>SpryMedia Ltd</authors>
-        <projectUrl>http://datatables.net</projectUrl>
-        <license type="expression">MIT</license>
-        <tags>rowgroup DataTables jQuery table SemanticUI</tags>
-        <repository type="git" url="https://github.com/DataTables/Dist-DataTables-RowGroup-SemanticUI.git"/>
-        <dependencies>
-            <dependency id="jquery" version="1.7.0"/>
-            <dependency id="datatables.net" version="1.10.15"/>
-            <dependency id="datatables.net-rowgroup" version="1.1.2"/>
-            <dependency id="semanticui" version="2.*"/>
-        </dependencies>
-    </metadata>
-    <files>
-        <file src="js/rowgroup.semanticui.js"/>
-        <file src="js/rowgroup.semanticui.min.js"/>
-        <file src="css/rowgroup.semanticui.css"/>
-        <file src="css/rowgroup.semanticui.min.css"/>
-    </files>
+  <metadata>
+    <id>datatables.net-rowgroup-se</id>
+    <version>1.1.2</version>
+    <description>RowGroup for DataTables</description>
+    <authors>SpryMedia Ltd</authors>
+    <projectUrl>http://datatables.net</projectUrl>
+    <license type="expression">MIT</license>
+    <tags>rowgroup DataTables jQuery table SemanticUI</tags>
+    <repository type="git" url="https://github.com/DataTables/Dist-DataTables-RowGroup-SemanticUI.git"/>
+    <dependencies>
+      <dependency id="jquery" version="1.7.0"/>
+      <dependency id="datatables.net" version="1.10.15"/>
+      <dependency id="datatables.net-rowgroup" version="1.1.2"/>
+      <dependency id="semanticui" version="2.*"/>
+    </dependencies>
+    <contentFiles>
+      <files include="**/*" buildAction="Content"/>
+    </contentFiles>
+  </metadata>
+  <files>
+    <file src="js/rowgroup.semanticui.js" target="content\Scripts"/>
+    <file src="js/rowgroup.semanticui.min.js" target="content\Scripts"/>
+    <file src="css/rowgroup.semanticui.css" target="content\Content"/>
+    <file src="css/rowgroup.semanticui.min.css" target="content\Content"/>
+    <file src="js/rowgroup.semanticui.js" target="contentFiles\any\any\wwwroot\js"/>
+    <file src="js/rowgroup.semanticui.min.js" target="contentFiles\any\any\wwwroot\js"/>
+    <file src="css/rowgroup.semanticui.css" target="contentFiles\any\any\wwwroot\css"/>
+    <file src="css/rowgroup.semanticui.min.css" target="contentFiles\any\any\wwwroot\css"/>
+  </files>
 </package>
