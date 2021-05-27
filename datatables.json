@@ -1,13 +1,15 @@
 {
-    "css": [
-        "css/rowGroup.semanticui.css",
-        "css/rowGroup.semanticui.min.css"
-    ],
     "js": [
         "js/rowGroup.semanticui.js",
         "js/rowGroup.semanticui.min.js"
     ],
+    "css": [
+        "css/rowGroup.semanticui.css",
+        "css/rowGroup.semanticui.min.css"
+    ],
+    "types": [
+        "types/rowGroup.semanticUI.d.ts"
+    ],
     "src-repo": "http://github.com/DataTables/RowGroup",
-    "last-sync": "2e01d58ad9e5a61aa951bb46b9ceac54d27005d5",
     "last-tag": "1.1.2"
 }
