@@ -19,7 +19,7 @@ npm install datatables.net-rowgroup-se
 
 ```
 var $ = require( 'jquery' );
-var dt = require( 'datatables.net-rowgroup-se}' )( window, $ );
+var dt = require( 'datatables.net-rowgroup-se' )( window, $ );
 ```
 
 ### bower
