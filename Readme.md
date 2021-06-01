@@ -17,9 +17,15 @@ For inclusion of this library using a standard `<script>` tag, rather than using
 npm install datatables.net-rowgroup-se
 ```
 
+ES3 Syntax
 ```
 var $ = require( 'jquery' );
 var dt = require( 'datatables.net-rowgroup-se' )( window, $ );
+```
+
+ES6 Syntax
+```
+import 'datatables.net-rowgroup-se'
 ```
 
 ### bower
