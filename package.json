@@ -4,7 +4,7 @@
     "main": "js/rowGroup.semanticui.js",
     "style": "css/rowGroup.semanticui.css",
     "types": "./types/rowGroup.semanticUI.d.ts",
-    "version": "1.1.4",
+    "version": "1.2.0",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
@@ -23,8 +23,8 @@
         "sort"
     ],
     "dependencies": {
-        "datatables.net-rowgroup": ">=1.1.4",
-        "datatables.net-se": ">=1.11.5",
+        "datatables.net-rowgroup": ">=1.2.0",
+        "datatables.net-se": ">=1.12.1",
         "jquery": ">=1.7"
     },
     "moduleType": [
