@@ -10,10 +10,9 @@
         "css/rowGroup.semanticui.min.css"
     ],
     "types": [
-        "types/rowGroup.semanticUI.d.ts",
-        "types/types.d.ts"
+        "types/rowGroup.semanticui.d.ts"
     ],
     "src-repo": "http://github.com/DataTables/RowGroup",
     "last-tag": "1.3.1",
-    "last-sync": "8ccf68c3ccde128a4a57031087f15071af76c414"
+    "last-sync": ""
 }
