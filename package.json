@@ -5,7 +5,7 @@
     "module": "js/rowGroup.semanticui.mjs",
     "style": "css/rowGroup.semanticui.css",
     "types": "./types/rowGroup.semanticui.d.ts",
-    "version": "1.4.0",
+    "version": "1.4.1",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
