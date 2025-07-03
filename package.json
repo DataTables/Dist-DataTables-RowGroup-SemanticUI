@@ -5,7 +5,7 @@
     "module": "js/rowGroup.semanticui.mjs",
     "style": "css/rowGroup.semanticui.css",
     "types": "./types/rowGroup.semanticui.d.ts",
-    "version": "1.5.1",
+    "version": "1.5.2",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
@@ -25,7 +25,7 @@
         "sort"
     ],
     "dependencies": {
-        "datatables.net-rowgroup": "1.5.1",
+        "datatables.net-rowgroup": "1.5.2",
         "datatables.net-se": "^2",
         "jquery": ">=1.7"
     },
