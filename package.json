@@ -40,9 +40,10 @@
     "exports": {
         ".": {
             "types": "./types/rowGroup.semanticui.d.ts",
+            "style": "./css/rowGroup.semanticui.css",
             "import": "./js/rowGroup.semanticui.mjs",
-            "default": "./js/rowGroup.semanticui.mjs",
-            "require": "./js/rowGroup.semanticui.js"
+            "require": "./js/rowGroup.semanticui.js",
+            "default": "./js/rowGroup.semanticui.mjs"
         },
         "./js/*": "./js/*",
         "./css": {
